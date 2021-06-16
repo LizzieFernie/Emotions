@@ -10,7 +10,7 @@ import {
 export default class Stage extends StageBase {
   constructor(...args) {
     super(...args);
-
+document.body.style.backgroundImage = "url('https://i.postimg.cc/hGbg14Nr/backgroundfor.jpg')";
     this.costumes = [
       new Costume("backdrop1", "./Stage/costumes/backdrop1.svg", {
         x: 240,
