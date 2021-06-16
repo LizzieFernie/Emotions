@@ -4,7 +4,7 @@ import Stage from "./Stage/Stage.js";
 import Catcher from "./Catcher/Catcher.js";
 import Baseball from "./Baseball/Baseball.js";
 
-const stage = new Stage({ costumeNumber: 1 });
+const stage = new Stage({ costumeNumber: 1 ,size: 100});
 
 const sprites = {
   Catcher: new Catcher({
@@ -29,6 +29,6 @@ const sprites = {
 
 const project = new Project(stage, sprites, {
   frameRate: 30, // Set to 60 to make your project run faster
-    size: 250
+
 });
 export default project;
