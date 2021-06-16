@@ -15,7 +15,8 @@ export default class Stage extends StageBase {
     this.costumes = [
       new Costume("backdrop1", "./Stage/costumes/backdrop1.svg", {
         x: 240,
-        y: 180
+        y: 180,
+        size: 200
       })
     ];
 
