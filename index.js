@@ -28,6 +28,7 @@ const sprites = {
 };
 
 const project = new Project(stage, sprites, {
-  frameRate: 30 // Set to 60 to make your project run faster
+  frameRate: 30, // Set to 60 to make your project run faster
+    size: 250
 });
 export default project;
