@@ -4,7 +4,7 @@ import Stage from "./Stage/Stage.js";
 import Catcher from "./Catcher/Catcher.js";
 import Baseball from "./Baseball/Baseball.js";
 
-let stage = new Stage({ costumeNumber: 1 ,size: 150});
+let stage = new Stage({ costumeNumber: 1 ,size: 250});
 
 const sprites = {
   Catcher: new Catcher({
