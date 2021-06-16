@@ -6,26 +6,35 @@
       href="https://unpkg.com/leopard@^1/dist/index.min.css"
     />
   </head>
-  <body>
-    <style>
-body {
-  background-image: url('https://i.postimg.cc/hGbg14Nr/backgroundfor.jpg');
-}
-</style>
-    <button id="greenFlag">Green Flag</button>
-    <div id="project"></div>
 
-    <script type="module">
-      import project from "./index.js";
+  <body background="https://i.postimg.cc/hGbg14Nr/backgroundfor.jpg">
+    <div class="content">
+      <button id="greenFlag">Green Flag</button>
+      <div id="project"></div>
 
-      project.attach("#project");
+      <script type="module">
+        import project from "./index.js";
 
-      document.querySelector("#greenFlag").addEventListener("click", () => {
+        project.attach("#project");
+
+        document.querySelector("#greenFlag").addEventListener("click", () => {
+          project.greenFlag();
+        });
+
+        // Autoplay
         project.greenFlag();
-      });
-
-      // Autoplay
-      project.greenFlag();
-    </script>
+      </script>
+    </div>
   </body>
+  <style>
+    .content {
+      max-width: 500px;
+      margin: auto;
+      text-align: center;
+    }
+    .body {
+      top: 250px;
+    }
+  </style>
 </html>
+
