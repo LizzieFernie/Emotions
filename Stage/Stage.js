@@ -1,4 +1,4 @@
-document.body.style.backgroundImage = "url('https://i.postimg.cc/hGbg14Nr/backgroundfor.jpg')";
+
 import {
   Stage as StageBase,
   Trigger,
